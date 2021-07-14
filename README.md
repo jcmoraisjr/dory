@@ -1,6 +1,6 @@
 # dory
 
-A HTTP server that responds with the hostname where it is running on. It's usually the pod name if deployed on Kubernetes and using the pod host. `dory` also accepts the time that should be wait to respond, and how much that time should be randomly changed. `dory` has metrics, so she will remember how frequently you asked.
+A HTTP server that responds with the hostname where it is running on. It's usually the pod name if deployed on Kubernetes and using the pod network. `dory` also accepts the time that should be wait to respond, and how much that time should be randomly changed. `dory` has metrics, so she will remember how frequently you asked.
 
 ## use cases
 
