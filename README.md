@@ -33,6 +33,13 @@ docker run -d --name=dory1 -p 8001:8000 jcmoraisjr/dory
 docker run -d --name=dory2 -p 8002:8000 jcmoraisjr/dory
 ```
 
+Problem with Docker Hub?
+
+```
+docker run -d --name=dory1 -p 8001:8000 quay.io/jcmoraisjr/dory
+docker run -d --name=dory2 -p 8002:8000 quay.io/jcmoraisjr/dory
+```
+
 Configure a HAProxy to load balance between these two instances:
 
 `h.cfg`:
