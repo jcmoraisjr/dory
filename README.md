@@ -1,5 +1,7 @@
 # dory
 
+[![image](https://img.shields.io/github/workflow/status/jcmoraisjr/dory/image?logo=github)](https://github.com/jcmoraisjr/dory/actions/workflows/image.yaml) [![docker](https://img.shields.io/docker/image-size/jcmoraisjr/dory/latest?logo=docker)](https://quay.io/repository/jcmoraisjr/dory)
+
 A HTTP server that responds with the hostname where it is running on. It's usually the pod name if deployed on Kubernetes and using the pod network. `dory` also accepts the time that should be wait to respond, and how much that time should be randomly changed. `dory` has metrics, so she will remember how frequently you asked.
 
 ## use cases
